@@ -7,7 +7,9 @@ setup(
     author_email="m.usman.akram021@gmail.com",
     install_requires=[
         "openai",
-        "langchain",  # Corrected typo here
+        "langchain",
+        "langchain-openai",
+        "langchain_community",
         "streamlit",
         "python-dotenv",
         "PyPDF2"
